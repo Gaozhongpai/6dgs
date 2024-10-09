@@ -69,11 +69,11 @@ function updateTabStates(navId, activeIdx) {
 }
 
 function getImageFolder(idx, sliderType) {
-    let folders = ['room', 'counter', 'bonsai', 'train', 'truck',];
+    let folders = ['bunny', 'cloud', 'ct', 'explosion', 'smoke', 'suzanne'];
     return folders[idx];
 }
 
 function getImageFileName(imageIndex, sliderType) {
-    let filenames = ['3dgs.png', 'ours.png', 'gt.png'];
+    let filenames = ['3dgs.png', 'ndg.png', 'ours.png', 'gt.png'];
     return filenames[imageIndex];
 }
